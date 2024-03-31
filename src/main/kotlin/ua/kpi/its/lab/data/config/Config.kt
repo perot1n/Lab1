@@ -53,6 +53,10 @@ class Config {
             setJpaProperties(additionalProperties())
         }
 
+    private fun setDataSource(dataSource: DataSource) {
+
+    }
+
     /**
      * Configures the transaction manager to be used for managing transactions within the Spring application.
      *
